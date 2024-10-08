@@ -8,6 +8,7 @@
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
         <title>Portfolio website complete</title>
     </head>
@@ -61,11 +62,14 @@
             </script>
             
 
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/animesh-bhawtankar/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="https://github.com/Animesh-Bhawtankar" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/animesh-bhawtankar/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:animesh@example.com" class="home__social-icon"><i class='fas fa-envelope'></i></a> <!-- Gmail Icon -->
+                <a href="tel:+18138694916" class="home__social-icon"><i class='fas fa-phone'></i></a> <!-- Phone Icon -->
+                <a href="https://github.com/Animesh-Bhawtankar" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+            
+            
 
                 <div class="home__img">
                     <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -100,57 +104,64 @@
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
 
-                <div class="skills__container bd-grid">          
+                <div class="skills__container bd-grid">
                     <div>
                         <h2 class="skills__subtitle">Professional Skills</h2>
-                        <p class="skills__text">My technical skills consists of following -</p>
+                        <p class="skills__text">My technical skills consist of the following:</p>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
+                                <i class='bx bx-code-alt skills__icon'></i> <!-- Coding icon for Python -->
                                 <span class="skills__name">Python</span>
                             </div>
                         </div>
+
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
+                                <i class='bx bxs-data skills__icon'></i> <!-- SQL Icon -->
                                 <span class="skills__name">SQL</span>
                             </div>
                         </div>
+
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <i class='bx bx-cloud skills__icon'></i> <!-- Cloud icon for AWS -->
                                 <span class="skills__name">AWS</span>
                             </div>
                         </div>
+
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Snowflake</span>
+                                <i class='bx bx-wind skills__icon'></i> <!-- Wind icon for Airflow -->
+                                <span class="skills__name">Airflow</span>
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
+                                <i class='bx bxs-bar-chart-alt-2 skills__icon'></i> <!-- Tableau Icon -->
                                 <span class="skills__name">Tableau</span>
-                            </div>  
+                            </div>
                         </div>
                     </div>
-                    
-                    <div>              
+                
+                    <div>
+                        
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Airflow</span>
-                            </div>  
+                                <i class='bx bx-coffee skills__icon'></i> <!-- Coffee icon for Java -->
+                                <span class="skills__name">Java</span>
+                            </div>
                         </div>
+                        
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
+                                <i class='bx bxs-pie-chart-alt-2 skills__icon'></i> <!-- Power BI Icon -->
                                 <span class="skills__name">Power BI</span>
-                            </div>  
+                            </div>
                         </div>
                     </div>
                 </div>
+                
+                
             </section>
 
             <!--===== WORK =====-->
@@ -236,7 +247,7 @@
                 <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+            
         </footer>
 
 
