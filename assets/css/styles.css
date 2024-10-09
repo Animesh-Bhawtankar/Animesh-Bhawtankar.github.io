@@ -255,6 +255,15 @@ img {
   row-gap: 2rem;
   text-align: center;
 }
+.bx-cog {
+  color: blue;
+  font-size: 30px;
+}
+
+.bx-star{
+  color: blue;
+  font-size: 30px;
+}
 .skills__subtitle {
   margin-bottom: var(--mb-2);
 }
@@ -517,5 +526,6 @@ img {
     width: 450px;
   }
 
+ 
 
 }
