@@ -136,6 +136,7 @@ img {
 }
 .nav__item {
   margin-bottom: var(--mb-4);
+  font-size: 0.95rem;
 }
 .nav__link {
   position: relative;
